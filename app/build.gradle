@@ -1,8 +1,9 @@
 plugins {
-    id 'com.android.application'
+    id 'com.android.application',
+    id 'com.google.firebase.appdistribution'
 }
 
-apply plugin: 'com.google.firebase.appdistribution'
+// apply plugin: 'com.google.firebase.appdistribution'
 apply from: '../jacoco.gradle'
 apply from: '../sonarqube.gradle'
 
